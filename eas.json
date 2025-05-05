@@ -1,8 +1,8 @@
 {
   "build": {
-    "termelés": {
+    "production": {
       "developmentClient": false,
-      "distribution": "internal"
+      "distribution": "store"
     }
   }
 }
