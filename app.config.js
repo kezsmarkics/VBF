@@ -4,10 +4,10 @@ export default {
     slug: "vedomero",
     version: "1.0.0",
     orientation: "portrait",
-    icon: "./képernyők/icon.png",
     userInterfaceStyle: "light",
+    icon: "./assets/icon.png",
     splash: {
-      image: "./képernyők/splash.png",
+      image: "./assets/splash.png",
       resizeMode: "contain",
       backgroundColor: "#ffffff"
     },
@@ -19,10 +19,11 @@ export default {
       supportsTablet: true
     },
     android: {
-      package: "com.kezsmarkics.vedomero"
+      package: "com.kezsmarkics.vedomero",
+      versionCode: 1
     },
     web: {
-      favicon: "./képernyők/favicon.png"
+      favicon: "./assets/favicon.png"
     }
   }
 };
