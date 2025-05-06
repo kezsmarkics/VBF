@@ -1,4 +1,6 @@
 export default {
+  cli: { appVersionSource: "node" },
+  extra: { eas: { projectId: "your-project-id-here" } },
   expo: {
     name: "Vedomero",
     slug: "vedomero",
